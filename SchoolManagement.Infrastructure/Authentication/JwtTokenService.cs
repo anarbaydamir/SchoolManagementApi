@@ -37,7 +37,7 @@ namespace SchoolManagement.Infrastructure.Authentication
             permClaims.Add(new Claim("name", userModel.FirstName));
             permClaims.Add(new Claim("surname", userModel.LastName));
             permClaims.Add(new Claim("phoneNumber", userModel.PhoneNumber));
-            permClaims.Add(new Claim(ClaimTypes.Role, userModel.Role.Name));
+            permClaims.Add(new Claim("role", userModel.Role.Name));
 
             var token = new JwtSecurityToken(jwtOptions.Issuer, //Issure    
                            jwtOptions.Auidence,  //Audience    
