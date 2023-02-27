@@ -165,6 +165,10 @@
     <Compile Include="Migrations\202302241028526_AddIsActiveColumnToUser.designer.cs">
       <DependentUpon>202302241028526_AddIsActiveColumnToUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202302271439076_AddedCourseTable.cs" />
+    <Compile Include="Migrations\202302271439076_AddedCourseTable.designer.cs">
+      <DependentUpon>202302271439076_AddedCourseTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\RefreshToken.cs" />
     <Compile Include="Persistence\ApplicationDbContext.cs" />
@@ -193,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202302241028526_AddIsActiveColumnToUser.resx">
       <DependentUpon>202302241028526_AddIsActiveColumnToUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302271439076_AddedCourseTable.resx">
+      <DependentUpon>202302271439076_AddedCourseTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

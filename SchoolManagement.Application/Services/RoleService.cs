@@ -26,7 +26,7 @@ namespace SchoolManagement.Application.Services
             unitOfWork.Complete();
         }
 
-        public IEnumerable<RoleModel> GetRoles()
+        public IEnumerable<RoleModel> GetAll()
         {
             var roles = unitOfWork.Repository<Role>().Find().ToList();
             return roleMapper.EntityListMapToRoleModelList(roles);

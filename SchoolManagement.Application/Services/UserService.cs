@@ -24,12 +24,12 @@ namespace SchoolManagement.Application.Services
             this.unitOfWork = unitOfWork;
         }
 
-        public IEnumerable<UsersModel> GetUsers()
+        public IEnumerable<UsersModel> GetAll()
         {
             var users = unitOfWork.Repository<User>().Find(new UserByIsActiveWithRoleSpecification());
             return userMapper.EntityListToUsersModelList(users);   
         }
-        public UserModel GetUserById(int id)
+        public UserModel GetById(int id)
         {
             var user = unitOfWork.Repository<User>().FindById(id);
             return userMapper.EntityToUserModel(user);

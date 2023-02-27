@@ -42,11 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Abstractions\BaseEntity.cs" />
+    <Compile Include="Entities\Course.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Interfaces\Services\IAuthenticationService.cs" />
+    <Compile Include="Interfaces\Services\ICourseService.cs" />
     <Compile Include="Interfaces\Services\IRoleService.cs" />
     <Compile Include="Interfaces\Services\IUserService.cs" />
+    <Compile Include="Models\CourseModel.cs" />
     <Compile Include="Models\RoleModel.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\TokenModel.cs" />

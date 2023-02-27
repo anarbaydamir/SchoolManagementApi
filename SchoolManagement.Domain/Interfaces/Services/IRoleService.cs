@@ -9,7 +9,7 @@ namespace SchoolManagement.Domain.Interfaces.Services
 {
     public interface IRoleService
     {
-        IEnumerable<RoleModel> GetRoles();
+        IEnumerable<RoleModel> GetAll();
         void Add(CreateRoleModel model);
     }
 }
