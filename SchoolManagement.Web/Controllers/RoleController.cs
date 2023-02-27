@@ -22,7 +22,7 @@ namespace SchoolManagement.Web.Controllers
         [Route("all")]
         public IHttpActionResult GetRoles()
         {
-            return Ok(roleService.GetRoles());
+            return Ok(roleService.GetAll());
         }
 
         [HttpPost]

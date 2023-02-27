@@ -23,14 +23,14 @@ namespace SchoolManagement.Web.Controllers
         [Route("all")]
         public IHttpActionResult GetUsers()
         {
-            return Ok(userService.GetUsers());
+            return Ok(userService.GetAll());
         }
 
         [HttpGet]
         [Route("{id}")]
         public IHttpActionResult GetUser(int id)
         {
-            return Ok(userService.GetUserById(id));
+            return Ok(userService.GetById(id));
         }
 
         [HttpPost]
