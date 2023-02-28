@@ -10,10 +10,14 @@ namespace SchoolManagement.Infrastructure.Persistence
     {
         public ApplicationDbContext() : base("SchoolManagementDb") { }
 
+        public DbSet<School> Schools { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<CourseTeacher> CourseTeachers { get; set; }
+        public DbSet<CourseStudent> CourseStudents { get; set; }
+        public DbSet<Assignment> Assignments { get; set; }
+        public DbSet<AssignmentAnswer> AssignmentAnswers { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -181,6 +181,10 @@
     <Compile Include="Migrations\202302280932532_AddedNewTables.designer.cs">
       <DependentUpon>202302280932532_AddedNewTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202302281249275_AddedSchoolTable.cs" />
+    <Compile Include="Migrations\202302281249275_AddedSchoolTable.designer.cs">
+      <DependentUpon>202302281249275_AddedSchoolTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\RefreshToken.cs" />
     <Compile Include="Persistence\ApplicationDbContext.cs" />
@@ -221,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202302280932532_AddedNewTables.resx">
       <DependentUpon>202302280932532_AddedNewTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302281249275_AddedSchoolTable.resx">
+      <DependentUpon>202302281249275_AddedSchoolTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

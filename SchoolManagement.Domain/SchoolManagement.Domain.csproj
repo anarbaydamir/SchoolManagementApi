@@ -48,9 +48,11 @@
     <Compile Include="Entities\CourseStudent.cs" />
     <Compile Include="Entities\CourseTeacher.cs" />
     <Compile Include="Entities\Role.cs" />
+    <Compile Include="Entities\School.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Interfaces\Services\IAuthenticationService.cs" />
     <Compile Include="Interfaces\Services\ICourseService.cs" />
+    <Compile Include="Interfaces\Services\ICourseStudentService.cs" />
     <Compile Include="Interfaces\Services\ICourseTeacherService.cs" />
     <Compile Include="Interfaces\Services\IRoleService.cs" />
     <Compile Include="Interfaces\Services\IUserService.cs" />
