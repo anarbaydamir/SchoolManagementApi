@@ -1,5 +1,7 @@
 ﻿using SchoolManagement.Domain.Entities.Abstractions;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace SchoolManagement.Domain.Entities
 {
@@ -16,6 +18,10 @@ namespace SchoolManagement.Domain.Entities
         public DateTime RefreshTokenExpiryTime { get; set; }
 
         public Role Role { get; set; }
+
+        public ICollection<CourseTeacher> CourseTeachers { get; set; }
+        public ICollection<CourseStudent> CourseStudents { get; set; }
+        public ICollection<AssignmentAnswer> AssignmentAnswers { get; set; }
 
     }
 }

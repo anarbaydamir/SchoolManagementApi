@@ -7,10 +7,14 @@ using System.Threading.Tasks;
 
 namespace SchoolManagement.Domain.Entities
 {
-    public class Course : BaseEntity
+    public class CourseTeacher: BaseEntity
     {
-        public string Name { get; set; }
+        public int CourseId { get; set; }
+        public int TeacherId { get; set; }
 
+        public Course Course { get; set; }
+        public User Teacher { get; set; }
+        public ICollection<CourseStudent> CourseStudents { get; set; }
         public ICollection<CourseTeacher> CourseTeachers { get; set; }
     }
 }

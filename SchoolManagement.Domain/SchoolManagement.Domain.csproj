@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\AssignmentAnswer.cs" />
     <Compile Include="Entities\Abstractions\BaseEntity.cs" />
+    <Compile Include="Entities\Assignment.cs" />
     <Compile Include="Entities\Course.cs" />
+    <Compile Include="Entities\CourseStudent.cs" />
+    <Compile Include="Entities\CourseTeacher.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Interfaces\Services\IAuthenticationService.cs" />

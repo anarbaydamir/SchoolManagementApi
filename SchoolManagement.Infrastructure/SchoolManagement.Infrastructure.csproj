@@ -169,6 +169,18 @@
     <Compile Include="Migrations\202302271439076_AddedCourseTable.designer.cs">
       <DependentUpon>202302271439076_AddedCourseTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202302280902171_AddedCourseTeachersTable.cs" />
+    <Compile Include="Migrations\202302280902171_AddedCourseTeachersTable.designer.cs">
+      <DependentUpon>202302280902171_AddedCourseTeachersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302280917036_AddedCourseStudentsTable.cs" />
+    <Compile Include="Migrations\202302280917036_AddedCourseStudentsTable.designer.cs">
+      <DependentUpon>202302280917036_AddedCourseStudentsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302280932532_AddedNewTables.cs" />
+    <Compile Include="Migrations\202302280932532_AddedNewTables.designer.cs">
+      <DependentUpon>202302280932532_AddedNewTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\RefreshToken.cs" />
     <Compile Include="Persistence\ApplicationDbContext.cs" />
@@ -200,6 +212,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202302271439076_AddedCourseTable.resx">
       <DependentUpon>202302271439076_AddedCourseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302280902171_AddedCourseTeachersTable.resx">
+      <DependentUpon>202302280902171_AddedCourseTeachersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302280917036_AddedCourseStudentsTable.resx">
+      <DependentUpon>202302280917036_AddedCourseStudentsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302280932532_AddedNewTables.resx">
+      <DependentUpon>202302280932532_AddedNewTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
