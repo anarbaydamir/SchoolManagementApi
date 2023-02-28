@@ -55,11 +55,13 @@
     <Compile Include="Interfaces\Services\ICourseStudentService.cs" />
     <Compile Include="Interfaces\Services\ICourseTeacherService.cs" />
     <Compile Include="Interfaces\Services\IRoleService.cs" />
+    <Compile Include="Interfaces\Services\ISchoolService.cs" />
     <Compile Include="Interfaces\Services\IUserService.cs" />
     <Compile Include="Models\CourseModel.cs" />
     <Compile Include="Models\CourseStudentModel.cs" />
     <Compile Include="Models\CourseTeacherModel.cs" />
     <Compile Include="Models\RoleModel.cs" />
+    <Compile Include="Models\SchoolModel.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\TokenModel.cs" />
     <Compile Include="Models\UserClaimsModel.cs" />

@@ -234,6 +234,7 @@
     <Compile Include="Controllers\CourseStudentController.cs" />
     <Compile Include="Controllers\CourseTeacherController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
+    <Compile Include="Controllers\SchoolController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Filters\GlobalExceptionHandlerAttribute.cs" />
     <Compile Include="Global.asax.cs">
