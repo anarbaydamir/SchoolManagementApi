@@ -48,12 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mappers\CourseMapper.cs" />
+    <Compile Include="Mappers\CourseStudentMapper.cs" />
     <Compile Include="Mappers\CourseTeacherMapper.cs" />
     <Compile Include="Mappers\RoleMapper.cs" />
     <Compile Include="Mappers\UserMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AuthenticationService.cs" />
     <Compile Include="Services\CourseService.cs" />
+    <Compile Include="Services\CourseStudentService.cs" />
     <Compile Include="Services\CourseTeacherService.cs" />
     <Compile Include="Services\RoleService.cs" />
     <Compile Include="Services\UserService.cs" />

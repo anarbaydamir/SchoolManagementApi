@@ -57,6 +57,7 @@
     <Compile Include="Interfaces\Services\IRoleService.cs" />
     <Compile Include="Interfaces\Services\IUserService.cs" />
     <Compile Include="Models\CourseModel.cs" />
+    <Compile Include="Models\CourseStudentModel.cs" />
     <Compile Include="Models\CourseTeacherModel.cs" />
     <Compile Include="Models\RoleModel.cs" />
     <Compile Include="Models\UserModel.cs" />
@@ -68,6 +69,8 @@
     <Compile Include="ProjectAggregates\Helpers\PasswordManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Specifications\Abstractions\BaseSpecification.cs" />
+    <Compile Include="Specifications\CourseStudentByCourseTeacherIdSpecification.cs" />
+    <Compile Include="Specifications\CourseStudentByStudentIdSpecification.cs" />
     <Compile Include="Specifications\CourseTeacherByTeacherIdSpecification.cs" />
     <Compile Include="Specifications\CourseTeacherWithTeacherAndCourseSpecification.cs" />
     <Compile Include="Specifications\CourseTeacherByCourseIdSpecification.cs" />
