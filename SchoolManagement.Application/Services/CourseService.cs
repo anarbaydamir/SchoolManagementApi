@@ -26,6 +26,7 @@ namespace SchoolManagement.Application.Services
         {
             var course = courseMapper.CreateCourseModelToEntity(model);
             unitOfWork.Repository<Course>().Add(course);
+            unitOfWork.Complete();
         }
 
         public CourseModel GetById(int id)
