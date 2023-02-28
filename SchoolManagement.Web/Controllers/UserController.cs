@@ -59,7 +59,7 @@ namespace SchoolManagement.Web.Controllers
 
         [HttpDelete]
         [Route("{id}")]
-        public IHttpActionResult DeleteUser(int id)
+        public IHttpActionResult RemoveUser(int id)
         {
             userService.Remove(id);
             return Ok();
