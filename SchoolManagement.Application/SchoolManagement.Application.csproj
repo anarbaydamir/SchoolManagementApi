@@ -66,6 +66,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mappers\AssignmentAnswerMapper.cs" />
+    <Compile Include="Mappers\AssignmentMapper.cs" />
     <Compile Include="Mappers\CourseMapper.cs" />
     <Compile Include="Mappers\CourseStudentMapper.cs" />
     <Compile Include="Mappers\CourseTeacherMapper.cs" />
@@ -73,6 +75,8 @@
     <Compile Include="Mappers\SchoolMapper.cs" />
     <Compile Include="Mappers\UserMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AssignmentAnswerService.cs" />
+    <Compile Include="Services\AssignmentService.cs" />
     <Compile Include="Services\AuthenticationService.cs" />
     <Compile Include="Services\CourseService.cs" />
     <Compile Include="Services\CourseStudentService.cs" />

@@ -15,9 +15,9 @@ namespace SchoolManagement.Application.Services
     public class CourseTeacherService : ICourseTeacherService
     {
         private readonly CourseTeacherMapper courseTeacherMapper;
-        private readonly UnitOfWork unitOfWork;
+        private readonly IUnitOfWork unitOfWork;
 
-        public CourseTeacherService(CourseTeacherMapper courseTeacherMapper, UnitOfWork unitOfWork)
+        public CourseTeacherService(CourseTeacherMapper courseTeacherMapper, IUnitOfWork unitOfWork)
         {
             this.courseTeacherMapper = courseTeacherMapper;
             this.unitOfWork = unitOfWork;

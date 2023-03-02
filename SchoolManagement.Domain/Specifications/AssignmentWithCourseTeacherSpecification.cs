@@ -8,13 +8,12 @@ using System.Threading.Tasks;
 
 namespace SchoolManagement.Domain.Specifications
 {
-    public class CourseTeacherWithTeacherAndCourseSpecification: BaseSpecification<CourseTeacher>
+    public class AssignmentWithCourseTeacherSpecification : BaseSpecification<Assignment>
     {
-        public CourseTeacherWithTeacherAndCourseSpecification()
+        public AssignmentWithCourseTeacherSpecification() 
         {
-            AddInclude(x => x.Teacher);
-            AddInclude(x => x.Course);
-            ApplyOrderByDescending(x => x.Id);
+            AddInclude(x => x.CourseTeacher.Course);
+            AddInclude(x => x.CourseTeacher.Teacher);
         }
     }
 }

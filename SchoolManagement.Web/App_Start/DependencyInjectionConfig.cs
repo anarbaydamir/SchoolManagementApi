@@ -33,6 +33,8 @@ namespace SchoolManagement.Web.App_Start
             builder.RegisterType<CourseTeacherMapper>().InstancePerLifetimeScope();
             builder.RegisterType<CourseStudentMapper>().InstancePerLifetimeScope();
             builder.RegisterType<SchoolMapper>().InstancePerLifetimeScope();
+            builder.RegisterType<AssignmentMapper>().InstancePerLifetimeScope();
+            builder.RegisterType<AssignmentAnswerMapper>().InstancePerLifetimeScope();
 
             builder.RegisterType<AuthenticationService>().As<IAuthenticationService>().InstancePerRequest();
             builder.RegisterType<UserService>().As<IUserService>().InstancePerRequest();
@@ -41,6 +43,8 @@ namespace SchoolManagement.Web.App_Start
             builder.RegisterType<CourseTeacherService>().As<ICourseTeacherService>().InstancePerRequest();
             builder.RegisterType<CourseStudentService>().As<ICourseStudentService>().InstancePerRequest();
             builder.RegisterType<SchoolService>().As<ISchoolService>().InstancePerRequest();
+            builder.RegisterType<AssignmentService>().As<IAssignmentService>().InstancePerRequest();
+            builder.RegisterType<AssignmentAnswerService>().As<IAssignmentAnswerService>().InstancePerRequest();
 
             builder.RegisterApiControllers(typeof(WebApiApplication).Assembly);
 
